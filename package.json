@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "alpha": "npm version prepatch --preid=alpha --no-git-tag-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
